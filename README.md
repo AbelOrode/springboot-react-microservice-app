@@ -31,8 +31,7 @@ Content-Type: application/json
 }
 ```
 
-##Endpoint - Delete a course by Id
-
+## Endpoint - Delete a course by Id
 ```
 DELETE /api/course/2 HTTP/1.1
 Host: localhost:3333
