@@ -3,6 +3,7 @@ package com.sha.springbootmicroservice1course.controller;
 import com.sha.springbootmicroservice1course.model.Course;
 import com.sha.springbootmicroservice1course.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +18,7 @@ public class CourseController {
     //Create Course Endpoint
     @PostMapping // http://api/course
     public ResponseEntity<?> saveCourse(@RequestBody Course course){
-        return new ResponseEntity<>(courseService.saveCourse((course)), HttpStatus.CREATED);
+        return new ResponseEntity<>(courseService.saveCourse(course), HttpStatus.CREATED);
     }
 
     //Delete a Single Course Endpoint
@@ -26,6 +27,8 @@ public class CourseController {
         courseService.deleteCourse(courseId);
         return new ResponseEntity<>(HttpStatus.OK);
     }
+
+
 
     //Get all courses
     @GetMapping //http://api/course
