@@ -1,4 +1,6 @@
-## A microservice application titled Course Management System  built on Spring WebFlux, and React.js
+## A microservice application titled Course Management System  built on Spring WebFlux, and React.js. 
+-- Each of the services would be implemented using three different databases which are postgreSQL, H2 in-memory DB, and MYSQL. 
+-- This application, being the first out of the three microservices, would be implemented using postgreSQL.
 
 
 
