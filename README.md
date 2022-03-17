@@ -1,4 +1,6 @@
-## A Microservice Architecture Course using Springboot framework to handle-server side functionality, and React.js to consume REST API and also for Client-Side functionality
+## A microservice application titled Course Management System  built on Spring WebFlux, and React.js
+
+
 
 ## Endpoint - Create a Course
 ```
